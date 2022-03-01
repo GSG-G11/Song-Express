@@ -4,7 +4,8 @@
   "description": "a Simple app to find the song that you want, made by Abedalrahman Shamia and Ibrhaim Elhelou",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
