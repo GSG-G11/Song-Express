@@ -19,13 +19,13 @@
     "url": "https://github.com/GSG-G11/Song-Express/issues"
   },
   "devDependencies": {
-    "env2": "^2.2.2",
     "eslint": "^8.10.0",
     "jest": "^27.5.1",
     "nodemon": "^2.0.15",
     "supertest": "^6.2.2"
   },
   "dependencies": {
+    "env2": "^2.2.2",
     "axios": "^0.26.0",
     "express": "^4.17.3"
   }
