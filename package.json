@@ -1,0 +1,26 @@
+{
+  "name": "song-express",
+  "version": "1.0.0",
+  "description": "a Simple app to find the song that you want, made by Abedalrahman Shamia and Ibrhaim Elhelou",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G11/Song-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G11/Song-Express/issues"
+  },
+  "homepage": "https://github.com/GSG-G11/Song-Express#readme",
+  "devDependencies": {
+    "env2": "^2.2.2",
+    "eslint": "^8.10.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
