@@ -17,7 +17,7 @@ searchForm.addEventListener('submit', e => {
   cardContainer.innerHTML = '';
   const searchTerm = searchInput.value;
   showLoadingSpinner();
-  fetch('http://localhost:3000/search?term=' + searchTerm)
+  fetch('/search?term=' + searchTerm)
     .then(response => {
       response.json().then(data => {
         if (!Object.keys(data).length) {
