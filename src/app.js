@@ -6,7 +6,7 @@ const options = require('./options');
 const errorRouter = require('./routes/index.js');
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
+app.get('/search', (req, res) => {
   const {term} = req.query;
   console.log(term);
   options.params.term = term;
