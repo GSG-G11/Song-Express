@@ -74,7 +74,7 @@ body {
   background-color: #272626;
 }
 
-.card img {
+.card .song-cover {
   width: 90%;
   border-radius: 50%;
   object-fit: cover;
@@ -114,6 +114,19 @@ body {
   color: white;
 }
 
+.spinner {
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  margin-left: 43%;
+  margin-top: 1.2rem;
+  display: none;
+}
+
+.spinner.loading {
+  display: block;
+}
+
 .details .song-name {
   font-size: 1.2rem;
   font-weight: bolder;
@@ -127,4 +140,9 @@ body {
 .details p:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.error {
+  outline: red 2px solid;
+  border: red 2px solid;
 }

@@ -3,16 +3,16 @@ const app = express();
 const axios = require('axios').default;
 const options = require('./options');
 
-const errorRouter = require('./routes/index.js')
+const errorRouter = require('./routes/index.js');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   const {term} = req.query;
+  console.log(term);
   options.params.term = term;
   axios
     .request(options)
     .then(response => {
-      console.log(response.data);
       res.send(response.data);
     })
     .catch(error => {
@@ -20,7 +20,6 @@ app.get('/', (req, res) => {
     });
 });
 
-app.use(errorRouter)
+app.use(errorRouter);
 
 module.exports = app;
-
