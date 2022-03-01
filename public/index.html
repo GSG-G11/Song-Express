@@ -10,24 +10,29 @@
   <body>
     <div class="main">
       <div class="search">
-        <input class="input" type="text" placeholder="Artists, songs..." />
+        <form action="/search" method="get">
+          <input class="input" type="text" placeholder="Song.." name="term" />
+        </form>
         <h1>Results:</h1>
       </div>
 
       <div class="card-container">
         <div class="card">
-          <img class="song-cover" src="./img/Tumblr_l_5548516908907.jpg" alt="imagine an img right here" />
+          <img
+            class="song-cover"
+            src="./img/Tumblr_l_5548516908907.jpg"
+            alt="imagine an img right here"
+          />
           <div class="details">
-          <p class="song-name">Song</p>
-          <p class="artist-name">Artist Name</p>
+            <p class="song-name">Song</p>
+            <p class="artist-name">Artist Name</p>
+            <a href="#" class="btn">▶</a>
+          </div>
         </div>
-        </div>
-        
-        
       </div>
     </div>
     <style>
-      @import url("http://fonts.cdnfonts.com/css/gotham");
+      @import url('http://fonts.cdnfonts.com/css/gotham');
     </style>
   </body>
 </html>

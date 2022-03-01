@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Gotham", sans-serif;
+  font-family: 'Gotham', sans-serif;
   color: white;
 }
 body {
@@ -26,11 +26,11 @@ body {
 }
 .search h1 {
   justify-content: flex-start;
-  margin-top: 1rem;
+  margin-top: 2.4rem;
 }
 
 .search .input {
-  width: 40%;
+  width: 400px;
   height: 50px;
   border-radius: 10px;
   border: none;
@@ -67,6 +67,7 @@ body {
   padding: 20px 0px 20px 0px;
   border-radius: 0.6rem;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .card:hover {
   background-color: #272626;
@@ -80,6 +81,34 @@ body {
 .details {
   align-self: flex-start;
   margin-left: 10%;
+  margin-top: 1.2rem;
+}
+
+.btn {
+  text-decoration: none;
+  display: block;
+  margin-top: 1.6rem;
+  padding: 0.8rem;
+  width: 25px;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: green;
+  border-radius: 50%;
+  color: black;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover .btn {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(-10px);
+}
+
+.btn:hover {
+  background-color: rgb(3, 156, 3);
+  color: white;
 }
 
 .details .song-name {
