@@ -68,6 +68,7 @@ body {
   border-radius: 0.6rem;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  position: relative;
 }
 .card:hover {
   background-color: #272626;
@@ -86,17 +87,19 @@ body {
 
 .btn {
   text-decoration: none;
-  display: block;
-  margin-top: 1.6rem;
+  display: block; 
   padding: 0.8rem;
   width: 25px;
   font-size: 1.2rem;
   text-align: center;
-  background-color: green;
+  background-color:  #1DB954;
   border-radius: 50%;
   color: black;
   opacity: 0;
   pointer-events: none;
+  position: absolute;
+  top: 52%;
+  right: 20%;
   transition: all 0.3s ease-in-out;
 }
 
