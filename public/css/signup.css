@@ -31,7 +31,27 @@ body {
   width: 100%;
 }
 
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+
+  padding: 4.8rem 7.2rem;
+  width: 100%;
+}
+
 .login-form input {
+  width: 20rem;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  border: 3px solid white;
+  padding-left: 1rem;
+  color: #181818;
+  font-size: 0.9rem;
+}
+
+.signup-form input {
   width: 20rem;
   height: 50px;
   border-radius: 10px;
@@ -96,4 +116,8 @@ h1 span {
   100% {
     transform: translateX(0);
   }
+}
+
+.hidden {
+  display: none;
 }
