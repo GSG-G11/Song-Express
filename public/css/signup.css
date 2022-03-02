@@ -63,7 +63,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.login-btn:hover {
+.signup-btn:hover {
   background-color: #181818;
   color: white;
   transform: scale(1.1);
